@@ -1,8 +1,16 @@
-.wrapper{
-	width: 100%;
-	background: image_url("bg.jpg");
-	background-size: cover;
+.wrapper_full
+{
+   width: 100%;
+   max-width:980px;
+   margin:0 auto;
 }
-.screen{
-	height: 300px;
+.column2
+{
+   width: 50%;
+   display:inline-block;
+}
+.column3
+{
+   width: 33%;
+   display:inline-block;
 }
