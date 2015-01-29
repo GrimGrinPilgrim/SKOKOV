@@ -1,16 +1,29 @@
-.wrapper_full
+body
 {
    width: 100%;
-   max-width:980px;
-   margin:0 auto;
 }
-.column2
+.wrapper_full
 {
-   width: 50%;
-   display:inline-block;
+  width: 100%;
+  max-width:980px;
+  margin:0 auto;
+};
+.column_fix
+{
+  width:28%;
+  min-width: 150px;
+  float:right;
+  background:yellow;
 }
-.column3
+.main_content
+{ 
+  width:71%;
+  float:left;
+}
+.column
 {
-   width: 33%;
-   display:inline-block;
+  width:48%;
+  margin-right:2%;
+  float:left;
+  background:blue;
 }
