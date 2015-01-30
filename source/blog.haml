@@ -5,7 +5,17 @@ header: blog
 .limited_content
   .main_content
     .columns
+      .column
+        .quote
+          %blockquote "Ability..."
+          %small John
+        .post_prev
+          %h4 17....
+          %p When
+          %small by...
       .column content
-      .column content
-  .column_fix content
+    .nav_panel
+      %a{:href=>"#"} prev
+  .column_fix
+    = partial :navpanel
   .clear

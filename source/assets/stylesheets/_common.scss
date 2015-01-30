@@ -1,36 +1,125 @@
 body
 {
-   width: 100%;
-   background: red;
+  width: 100%;
+  background: red;
+  font-family: $fontMain;
+  color:$colorMain;
 }
 .wrapper_full
 {
   width: 100%;
-};
+}
 .limited_content
 {
   width: 100%;
-  max-width:1200px;
+  max-width:1630px;
   margin:0 auto;
-  background:green;
 }
 .column_fix
 {
   width:28%;
-  min-width: 200px;
+  min-width: 435px;
   float:right;
-  background:yellow;
 }
 .main_content
 { 
   width:71%;
   float:left;
-  background:black;
 }
 .column
 {
-  width:48%;
+  width:47%;
   margin-right:2%;
-  float:left;
-  background:blue;
+  display:inline-block;
+}
+h1
+{
+  text-transform: uppercase;
+  font-size:70px;
+  font-variant: normal;
+	font-weight: normal;
+	line-height:85px;
+}
+h2
+{
+  font-size:35px;
+	text-transform: uppercase;
+	font-variant: normal;
+	font-weight: normal;
+	color:$colorMain;
+}
+.you_head_title h2
+{
+  color:$colorAlt;
+}
+h3
+{
+  font-size:24px;
+  font-variant: normal;
+	font-weight: normal;
+}
+h5
+{
+  text-transform: uppercase;
+  font-size:20px;
+  color: $colorMain;
+  font-family:"Code";
+  font-variant: normal;
+	font-weight: normal;
+	line-height:23px;
+}
+.column_fix nav
+{
+  font-family:$fontMain;
+}
+.column_fix h5
+{
+  color: $colorAlt;
+  font-family:$fontMain;
+}
+.column_fix p
+{
+  font-size:16px;
+  text-transform: uppercase; 
+}
+.column_fix li p
+{
+  color: white;
+}
+.column_fix small
+{
+  font-size:12px;
+  color:$colorAlt;
+}
+h6
+{
+  font-size:18px;
+  text-transform: uppercase;
+  color:$fontAlt;
+  font-variant: normal;
+	font-weight: normal;
+}
+nav
+{
+  font-family:$fontAlt;
+  color:wite;
+  font-size:16px;
+}
+a
+{
+  text-decoration:none;
+  color:black;
+}
+p
+{
+  font-size:15px;
+}
+small
+{
+  font-size:13px;
+}
+aside
+{
+  font-size: 10px;
+  color: $colorAlt;
 }
