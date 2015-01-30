@@ -1,17 +1,23 @@
 body
 {
    width: 100%;
+   background: red;
 }
 .wrapper_full
 {
   width: 100%;
-  max-width:980px;
-  margin:0 auto;
 };
+.limited_content
+{
+  width: 100%;
+  max-width:1200px;
+  margin:0 auto;
+  background:green;
+}
 .column_fix
 {
   width:28%;
-  min-width: 150px;
+  min-width: 200px;
   float:right;
   background:yellow;
 }
@@ -19,6 +25,7 @@ body
 { 
   width:71%;
   float:left;
+  background:black;
 }
 .column
 {
