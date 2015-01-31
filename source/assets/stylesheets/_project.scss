@@ -1,4 +1,37 @@
-.gallery {
-    width: 500px;
+.project_gallery {
+    width: 100%;
     height: 500px;
+    background-color:#424147;
 }
+.project_text_block {
+    
+}
+.main_content {
+    background-color:#f6f6f6;
+}
+.project_recent_projects {
+    border-top:1px solid #cdcdcd;
+}
+.project_button_h6 {
+    background-color:#424147;
+    color:#ffea00;
+    padding:8px 20px;
+    display:block;
+}
+.project_recent_image {
+    width:280px;
+    padding:15px 10px;
+}
+// -----------right------
+.project_right_column {
+    background-color:#424147;
+    float:right;
+    color:white;
+}
+    .details {
+        color:#ffea00;
+    }
+    .project_details ul {
+        text-transform: uppercase;
+        color:white;
+    }
