@@ -1,5 +1,29 @@
-%header.wrapper_full
-  .limited_content
-    %nav menu
-    .you_head_title
-      %h2= data.page.header
+%header
+  .wrapper_full
+    .limited_content
+      .header_logo
+        %img{:src => "/assets//images/logo.png",:alt=>'logo'}
+      %nav
+        %ul.header_menu_button
+          %li
+            %a{:href=>'index.html'}
+              Home
+          %li
+            %a{:href=>'portfolio.html'}
+              Portfolio
+          %li
+            %a{:href=>'blog.html'}
+              Blog
+          %li
+            %a{:href=>'about.html'}
+              About us
+          %li
+            %a{:href=>'contact.html'}
+              Contact
+  .wrapper_full.header_title 
+    .limited_content
+      .you_head_title
+        %h2= data.page.header
+  
+      
+      
