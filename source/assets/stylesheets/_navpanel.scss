@@ -37,22 +37,25 @@
 {
   padding:10px 10px 20px;
   margin:0 0 20px 0;
-  background:red;
+  background:#424147;
 }
-.nav_panel_wrapper ul
+.nav_panel_wrapper
 {
-  width:48%;
-  display: inline-block;
-}
-.nav_panel_wrapper li
-{
-  position:relative;
-  padding-left:40px;
-  &:before
+  ul
   {
-    content:url(../images/icons/arrow.png);
-    position:absolute;
-    left:0;
+    width:48%;
+    display: inline-block;
+  }
+  li
+  {
+    position:relative;
+    padding-left:40px;
+    &:before
+    {
+      content:url(../images/icons/arrow.png);
+      position:absolute;
+      left:0;
+    }
   }
 }
 .prev_post{

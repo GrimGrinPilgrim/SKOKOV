@@ -1,13 +1,75 @@
-.single_post h4
+.single_post
 {
-  font-size:30px;
+  h4
+  {
+    font-size:30px;
+  }
 }
-.other h4
+
+.other_posts
 {
-  font-size:13px;
+  ul
+  {
+    text-align:justify;
+  }
+  ul:after {
+  width: 100%;
+  height: 0px;
+  visibility: hidden;
+  overflow: hidden;
+  content: "";
+  display: inline-block;
 }
-.comments p:first-child
+  h4
+  {
+    font-size:13px;
+  }
+  li
+  {
+    width:30%;
+    display:inline-block;
+  }
+  
+}
+.comments
 {
-  font-size:16px;
-  color:black;
+  form
+  {
+    text-align:right;
+    textarea
+    {
+      display:block;
+      width:98%;
+    }
+    input,textarea
+    {
+      background:white;
+      border:none;
+      margin: 20px 0;
+      padding:1%;
+    }
+    input
+    {
+      width:47%;
+      display:inline-block;
+    }
+    input:first-child
+    {
+      float:left;
+    }
+    input:last-child
+    {
+      float:right;
+    }
+    button
+    {
+      color:white;
+      background:black;
+      border:none;
+      border-bottom:$colorAlt 2px solid;
+    }
+  }
+  
+  
+  
 }
