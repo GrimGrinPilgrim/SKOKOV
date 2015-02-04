@@ -15,12 +15,6 @@ body
   max-width:1630px;
   margin:0 auto;
 }
-.column_fix
-{
-  width:28%;
-  min-width: 435px;
-  float:right;
-}
 .main_content
 { 
   width:71%;
@@ -39,9 +33,11 @@ h1
   font-variant: normal;
 	font-weight: normal;
 	line-height:85px;
+	margin:0;
 }
 h2
 {
+  margin:0;
   font-size: 35px;
 	text-transform: uppercase;
 	font-variant: normal;
@@ -56,12 +52,14 @@ h2
 }
 h3
 {
+  margin:0;
   font-size:24px;
   font-variant: normal;
 	font-weight: normal;
 }
 h5
 {
+  margin:0;
   text-transform: uppercase;
   font-size:20px;
   color: #fff;
@@ -70,31 +68,10 @@ h5
 	font-weight: normal;
 	line-height:23px;
 }
-.column_fix nav
-{
-  font-family:$fontMain;
-}
-.column_fix h5
-{
-  color: $colorAlt;
-  font-family:$fontMain;
-}
-.column_fix p
-{
-  font-size:16px;
-  text-transform: uppercase; 
-}
-.column_fix li p
-{
-  color: white;
-}
-.column_fix small
-{
-  font-size:12px;
-  color:$colorAlt;
-}
+
 h6
 {
+  margin:0;
   font-size:18px;
   text-transform: uppercase;
   font-family:$fontMain;
@@ -115,6 +92,7 @@ a
 {
   text-decoration:none;
   color:black;
+  @include transition(all .4s );
 }
 p
 {
@@ -129,3 +107,4 @@ aside
   font-size: 10px;
   color: $colorAlt;
 }
+

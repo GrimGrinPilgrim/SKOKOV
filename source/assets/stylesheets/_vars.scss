@@ -21,7 +21,7 @@ $gutter: 25px;
 // responsive
 $break-1: 478px;
 $break-2: 768px;
-$break-3: 1024px;
+$break-3: 1400px;
 @mixin respond-to($media) {
   @if $media == sm {
     @media only screen and (max-width: $break-1) { @content; }
