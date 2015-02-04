@@ -1,26 +1,61 @@
 .project_gallery {
     width: 100%;
-    height: 500px;
+    height: 780px;
     background-color:#424147;
 }
+    .project_gallery_inside {
+        width:100%;
+        height:660px;
+    }
+        .project_arrow_left {
+            position:relative;
+            float:left;
+            width:46px;
+            height:100px;
+            margin-top:280px;
+            background-image:url("/assets/images/icons/project_left_arrow.png");
+        }
+        .project_arrow_right {
+            position:relative;
+            float:right;
+            width:46px;
+            height:100px;
+            margin-top:280px;
+            background-image:url("/assets/images/icons/project_right_arrow.png");
+        }
+    .project_gallery_twist {
+        width:100%;
+        height:120px;
+        background-color:#000000;
+    }
 .project_text_block {
-    
+    padding:25px;
 }
 .main_content {
     background-color:#f6f6f6;
 }
 .project_recent_projects {
     border-top:1px solid #cdcdcd;
+    padding:25px;
 }
-.project_button_h6 {
+.project_button_h6_dec {
     background-color:#424147;
     color:#ffea00;
     padding:8px 20px;
     display:block;
+    width:200px;
+}
+.project_button_h6_pro {
+    background-color:#424147;
+    color:#ffea00;
+    padding:8px 20px;
+    display:block;
+    width:160px;
 }
 .project_recent_image {
     width:280px;
-    padding:15px 10px;
+    padding:25px 10px 15px 0px;
+    // display:inline-block;
 }
 // -----------right------
 .project_right_column {
