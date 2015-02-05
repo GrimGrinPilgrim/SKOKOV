@@ -2,10 +2,10 @@
 title: contact
 header: contact
 ---
-// .wrapper_full.contact_map
-//   %iframe { :src => "https://goo.gl/maps/Adqcs", :widht => "1635px", :height => "645px", :frameborder => "0", :border => "0" }
+.wrapper_full.contact_map
+  %iframe{ :src => "https://www.google.com/maps/embed?pb=!1m10!1m8!1m3!1d3139.012012729425!2d13.3662662351334!3d38.11665493283122!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sru!2sru!4v1422802286828", :width => "100%", :height => "645px", :frameborder => "0", :border => "0"}
 .limited_content
-  <iframe src="https://www.google.com/maps/embed?pb=!1m10!1m8!1m3!1d3139.012012729425!2d13.3662662351334!3d38.11665493283122!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sru!2sru!4v1422802286828" width="1635" height="645" frameborder="0" style="border:0"></iframe>
+  // <iframe src="https://www.google.com/maps/embed?pb=!1m10!1m8!1m3!1d3139.012012729425!2d13.3662662351334!3d38.11665493283122!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sru!2sru!4v1422802286828" width="1635" height="645" frameborder="0" style="border:0"></iframe>
   .contact_send_us_a_message
     %h6
       send us a message
@@ -15,7 +15,7 @@ header: contact
       %input.contact_subject{:value => "subject..."}
       %textarea
         message ...
-    %p
+    %a{:href=>'404.html'}
       Send a message
   .contact_info
     %h6

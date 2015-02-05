@@ -3,4 +3,17 @@ title: 404
 header: 404 error
 ---
 .limited_content
-  content
+  .error
+    .error_404
+      404
+    .error_page_not_found
+      page not found 
+      %span.error_big_letter
+        !
+    .error_link
+      %a{:href=>'index.html'}
+        Back to homepage
+      .error_or
+        or
+      %%a{:href=>'blog.html'}
+        Our blog

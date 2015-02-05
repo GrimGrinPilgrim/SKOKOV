@@ -1,0 +1,37 @@
+.error{
+  width: 100%;
+  margin: 0 auto;
+  text-align: center;
+  margin-bottom: 150px;
+  .error_404{
+    font-size: 200px;
+    color: $colorMain;
+  }
+  .error_page_not_found{
+    font-size: 90px;
+    padding-bottom: -50px;
+    color: $colorAlt;
+    text-align: center;
+    background: $colorMain;
+    display: inline;
+    .error_big_letter{
+      font-size: 140px;
+    }
+  }
+  .error_link{
+    margin-top: 50px;
+    a{
+      color: #fff;
+      background: #000;
+      border-bottom: 2px solid $colorAlt;
+      display: inline;
+      padding: 10px 15px;
+    }
+  }
+  .error_or{
+    background: $colorAlt;
+    display: inline-block;
+    padding: 10px 15px;
+    margin: 0 15px 0 20px;
+  }
+}
