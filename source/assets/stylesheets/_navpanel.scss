@@ -1,21 +1,30 @@
-
 .column_fix
 {
   width:28%;
-  min-width: 435px;
+  min-width: 443px;
   float:right;
   @include respond-to (tablet) {
     min-width: 335px;
   }
-}
-.column_fix nav
-{
-  font-family:$fontMain;
-}
-.column_fix h5
-{
-  color: $colorAlt;
-  font-family:$fontMain;
+  nav
+  {
+    font-family:$fontMain;
+  }
+  h5
+  {
+    color: $colorAlt;
+    font-family:$fontMain;
+    margin:0 0 35px 0;
+  }
+  small
+  {
+    font-size:12px;
+    color:$colorAlt;
+  }
+  a
+  {
+    vertical-align:-webkit-baseline-middle;
+  }
 }
 .column_fix p, .column_fix span, .column_fix a
 {
@@ -28,61 +37,24 @@
   margin:0;
   padding:0;
 }
-.column_fix small
+.nav_panel_search
 {
-  font-size:12px;
-  color:$colorAlt;
-}
-.nav_panel_wrapper
-{
-  padding:10px 10px 20px;
-  margin:0 0 20px 0;
-  background:#424147;
-}
-.nav_panel_wrapper
-{
-  ul
-  {
-    width:48%;
-    display: inline-block;
-  }
-  li
-  {
-    position:relative;
-    padding-left:40px;
-    &:before
-    {
-      content:url(../images/icons/arrow.png);
-      position:absolute;
-      left:0;
-    }
-  }
-}
-.prev_post{
-  img
-  {
-   width:20%; 
-  }
-  .content_post{
-    display:inline-block;
-    width:70%;
-    vertical-align:top;
-  }
-}
-.column_fix span{
-  padding:3px;
-  background:$colorAlt;
+  padding:20px;
+  margin:0 0 30px 0;
+  background:$colorMain;
 }
 .search
 {
   position:relative;
+  width:366px;
+  margin:0 auto;
   input
   {
     border:0;
-    padding:0px 15px;
     border-radius:15px;
     margin:0 auto;
     display:block;
+    width:100%;
   }
   &:before
   {
@@ -92,7 +64,59 @@
     height:15px;
     background:url(../images/icons/search.png) no-repeat;
     background-size:cover;
-    left:200px;
+    right:30px;
     top:3px;
   }
  }
+.nav_panel_wrapper
+{
+  padding:35px;
+  margin:0 0 30px 0;
+  background:$colorMain;
+  ul
+  {
+    width:48%;
+    display: inline-block;
+  }
+  li
+  {
+    position:relative;
+    margin:0 0 15px 0;
+    padding-left:45px;
+    &:before
+    {
+      content:url(../images/icons/arrow.png);
+      position:absolute;
+      left:0;
+    }
+  }
+}
+.prev_post{
+  margin-bottom:20px;
+  img
+  {
+   height:70px; 
+  }
+  .content_post{
+    position:relative;
+    height:70px;
+    display:inline-block;
+    width:70%;
+    vertical-align:top;
+  }
+}
+.tag_part span{
+  padding:1px 10px;
+  background:$colorAlt;
+  color:$colorMain;
+}
+.metapost
+{
+  bottom:0;
+  position:absolute;
+  right:0;
+  >small
+  {
+    margin-right:20px;
+  }
+}

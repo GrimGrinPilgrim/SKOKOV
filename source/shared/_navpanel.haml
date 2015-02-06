@@ -1,6 +1,6 @@
-.nav_panel_wrapper
+.nav_panel_search
   .search
-    %input{:type=>"search", :placeholder=>"Search ..."}
+    %input{:type=>"search", :placeholder=>"     Search ..."}
 .nav_panel_wrapper
   %h5 categories
   %ul
@@ -29,59 +29,94 @@
   %h5 Archive
   %ul
     %li 
-      %a{:href=>"#"} October  (7)
+      %a{:href=>"#"} 
+        %span October
+        %span (7) 
     %li 
-      %a{:href=>"#"} September  (9)
+      %a{:href=>"#"} 
+        %span September
+        %span (9)
     %li 
-      %a{:href=>"#"} August  (12)
+      %a{:href=>"#"}
+        %span August
+        %span (12)
     %li 
-      %a{:href=>"#"} July  (17)
+      %a{:href=>"#"}
+        %span July 
+        %span (17)
     %li 
-      %a{:href=>"#"} June  (6)
+      %a{:href=>"#"} 
+        %span June 
+        %span (6)
   %ul
     %li 
-      %a{:href=>"#"} May  (15)
+      %a{:href=>"#"}
+        %span May 
+        %span (15)
     %li 
-      %a{:href=>"#"} April  (4)
+      %a{:href=>"#"}
+        %span April 
+        %span (4)
     %li 
-      %a{:href=>"#"} March  (13)
+      %a{:href=>"#"} 
+        %span March 
+        %span (13)
     %li 
-      %a{:href=>"#"} February  (19)
+      %a{:href=>"#"} 
+        %span February 
+        %span (19)
     %li 
-      %a{:href=>"#"} January  (21)
+      %a{:href=>"#"} 
+        %span January
+        %span (21)
 .nav_panel_wrapper
   %h5 Popular posts
-  %a{:href=>"#", :class=>"prev_post"}
-    %img{:src => "assets/images/blog_images/post6.jpg",:alt=>'img'}
-    .content_post
-      %p 15 Fresh Examples of Clean and  Minimal Web Designs
-      %small Oct. 09, 2013
-      %small 21 
-  %a{:href=>"#", :class=>"prev_post"}
-    %img{:src => "assets/images/blog_images/post5.jpg",:alt=>'img'}
-    .content_post
-      %p Inspiring Examples of Color in  Web Design
-      %small Oct. 10, 2013
-      %small 19 
-  %a{:href=>"#", :class=>"prev_post"}
-    %img{:src => "assets/images/blog_images/post1.jpg",:alt=>'img'}
-    .content_post
-      %p 17 Inspiring Examples of  Parallax Scrolling Sites
-      %small Oct.12, 2013
-      %small 15 
-  %a{:href=>"#", :class=>"prev_post"}
-    %img{:src => "assets/images/blog_images/post7.jpg",:alt=>'img'}
-    .content_post
-      %p 15 Websites with Beautiful  Typography
-      %small Oct.03, 2013
-      %small 13 
-  %a{:href=>"#", :class=>"prev_post"}
-    %img{:src => "assets/images/blog_images/post2.jpg",:alt=>'img'}
-    .content_post
-      %p 20 Resources for Beginner  Designers & Developers
-      %small Oct.10, 2013
-      %small 7 
-.nav_panel_wrapper
+  .prev_post
+    %a{:href=>"#"}
+      %img{:src => "assets/images/blog_images/post6.jpg",:alt=>'img'}
+      .content_post
+        %p 15 Fresh Examples of Clean and  Minimal Web Designs
+        .metapost
+          %small Oct. 09, 2013
+          %span.yellow-heart
+            %small 21 
+  .prev_post
+    %a{:href=>"#", :class=>"prev_post"}
+      %img{:src => "assets/images/blog_images/post5.jpg",:alt=>'img'}
+      .content_post
+        %p Inspiring Examples of Color in  Web Design
+        .metapost  
+          %small Oct. 10, 2013
+          %span.yellow-heart
+            %small 19 
+  .prev_post
+    %a{:href=>"#", :class=>"prev_post"}
+      %img{:src => "assets/images/blog_images/post1.jpg",:alt=>'img'}
+      .content_post
+        %p 17 Inspiring Examples of  Parallax Scrolling Sites
+        .metapost
+          %small Oct.12, 2013
+          %span.yellow-heart
+            %small 15 
+  .prev_post
+    %a{:href=>"#", :class=>"prev_post"}
+      %img{:src => "assets/images/blog_images/post7.jpg",:alt=>'img'}
+      .content_post
+        %p 15 Websites with Beautiful  Typography
+        .metapost
+          %small Oct.03, 2013
+          %span.yellow-heart
+            %small 13 
+  .prev_post
+    %a{:href=>"#", :class=>"prev_post"}
+      %img{:src => "assets/images/blog_images/post2.jpg",:alt=>'img'}
+      .content_post
+        %p 20 Resources for Beginner  Designers & Developers
+        .metapost
+          %small Oct.10, 2013
+          %span.yellow-heart
+            %small 7 
+.nav_panel_wrapper.tag_part
   %h5 tags
   %a{:href=>"#"}
     %span web design
@@ -105,5 +140,3 @@
     %span theme
   %a{:href=>"#"}
     %span joomla
-  %a{:href=>"#"}
-    %span categories bg

@@ -102,10 +102,26 @@ p
 small
 {
   font-size:13px;
+  text-transform:none;
 }
 aside
 {
   font-size: 10px;
   color: $colorAlt;
 }
-
+.yellow-heart
+{
+  position:relative;
+  
+  small:before
+  {
+    content:'';
+    position:absolute;
+    width:10px;
+    height:10px;
+    background:url(../images/icons/heart-icon.png) no-repeat;
+    background-size:cover;
+    top:6px;
+    right:15px;
+  }
+}
