@@ -1,16 +1,61 @@
 ---
 title: main
-header: main
+// header: main
 ---
-.limited_content 
-  %h1 
-    %mark We believe in quality design
-  .slider
-    %p Any creative project is unique and should be provided with the appropriate quality
-  %h2 We create quality designs.
-  %h3 We specialize...
-  %h5 redesigning with...
-  %aside in web design
-  %small Lorem...
-  %h6 our work
-  %p Lorem...
+.bg_image_slider
+  %a.arrow-left{:href => "#"}
+  %a.arrow-right{:href => "#"}
+  .limited_content 
+    .slider
+      .text
+        %h1 
+          %mark We believe
+          %br
+          %mark in quality design
+        %p Any creative project is unique
+        %br
+        %p and should be provided with
+        %br
+        %p the appropriate quality
+      .img_block
+        .block_one
+          %img{:src=>'/assets//images/img_1.jpg',:alt=>'icon'}
+          %img{:src=>'/assets//images/img_10.jpg',:alt=>'icon'}
+          %img{:src=>'/assets//images/img_8.jpg',:alt=>'icon'}
+        .block_two
+          %img{:src=>'/assets//images/img_9.jpg',:alt=>'icon'}
+          %img{:src=>'/assets//images/img_3.jpg',:alt=>'icon'}
+          %img{:src=>'/assets//images/img_2.jpg',:alt=>'icon'}
+        .block_three
+          %img{:src=>'/assets//images/img_6.jpg',:alt=>'icon'}
+          %img{:src=>'/assets//images/img_5.jpg',:alt=>'icon'}
+          %img{:src=>'/assets//images/img_7.jpg',:alt=>'icon'}
+        .block_four
+          %img{:src=>'/assets//images/img_4.jpg',:alt=>'icon'}
+    .content
+      %h2 We create quality designs.
+      %h3 We specialize in Web Design / Development and Graphic Design
+      .info_blocks
+        .blogs
+          %img{:src=>'/assets//images/blog_post_img.jpg',:alt=>'icon'}
+          .bottom_block
+        .blogs
+          .img_block
+            %img{:src=>'/assets//images/icons/web_development.png',:alt=>'icon'}
+              %h5 Web development
+            .bottom_block
+        .blogs
+          .img_block
+            %img{:src=>'/assets//images/icons/web_design_icon.png',:alt=>'icon'}
+              %h5 Web design
+            .bottom_block
+        .blogs
+          .img_block
+            %img{:src=>'/assets//images/icons/graphic_design_icon.png',:alt=>'icon'}
+              %h5 Graphic design
+            .bottom_block
+    %h5 redesigning with...
+    %aside in web design
+    %small Lorem...
+    %h6 our work
+    %p Lorem...
