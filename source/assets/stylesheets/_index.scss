@@ -1,10 +1,10 @@
-.bg_image_slider{
+.main_bg_image_slider{
     // width:100%;
     height:700px;
     background: url("/assets/images/slider_bg.jpg") no-repeat center top;
     background-size: cover;
 }
-.arrow-left{
+.main_arrow_left{
     background: url("/assets/images/icons/Left_arrow.png") no-repeat center;
     background-color:#000;
     width:45px;
@@ -12,7 +12,7 @@
     margin:300px 0;
     float:left;
     }
-.arrow-right{
+.main_arrow_right{
     background: url("/assets/images/icons/Right_arrow.png") no-repeat center;
     background-color:#000;
     width:45px;
@@ -20,7 +20,7 @@
     margin:300px 0;
     float:right;
     }
-.slider{
+.main_slider{
     // width:100%;
     // position:relative;
     height:700px;
@@ -29,7 +29,7 @@
     // background: url("/assets/images/slider_bg.jpg") no-repeat center top;
     // background-size: cover;
     // display:inline-block;
-    .text{
+    .main_text{
     position:relative;
     padding-top:110px;
     display:inline-block;
@@ -48,7 +48,7 @@
     display:inline-block;
 
     }
-    .img_block{
+    .main_img_block{
     position:relative;
     width:724px;
     height:600px;
@@ -59,26 +59,26 @@
     /* Лекарство отдельно для Safari */
     display: table;
     // z-index:1000;
-        .block_one{
+        .main_block_one{
         height:150px;
         }
-        .block_two{
+        .main_block_two{
         height:150px;
         margin-left:179px;
         // display:inline-block;
         }
-        .block_three{
+        .main_block_three{
         height:150px;
         // display:inline-block;   
         }
-        .block_four{
+        .main_block_four{
         height:150px;
         margin-left:179px;
         // display:inline-block;   
         }
     }
 }
-.content{
+.main_content_blogs{
     padding:90px 0;
     width: 100%;
     height: 100%;
@@ -88,17 +88,16 @@
     h3{
         margin-top:10px;
     }
-    .info_blocks{
+    .main_info_blocks{
         margin-top:60px;
-        // background-color:#345678;
         display:inline-block;
-        .blogs{
+        .main_blogs{
         width:250px;
         height:285px;
         display:inline-block;
         vertical-align:top;
         margin:0 25px;
-            .img_block{
+            .main_img_block{
             position:relative;
             width:250px;
             padding-top:172px;
@@ -114,25 +113,23 @@
                 h5{
                 color:#414146;
                 font-weight:bold;
-                // margin-top:20px;
                 }
             }
-             #icon_one:before{
+             #main_icon_one:before{
                 content:url(../images/icons/web_development.png);
                 }
-            #icon_two:before{
+            #main_icon_two:before{
                 content:url(../images/icons/web_design_icon.png);
                 }
-            #icon_three:before{
+            #main_icon_three:before{
                 content:url(../images/icons/graphic_design_icon.png);
                 }
         }
-        .bottom_block{
+        .main_bottom_block{
         position: relative;
         width:250px;
         height:85px;
         background-color:#414146;
-        // padding-top:10px;
           h5{
           font-weight:bold;
           padding-top:15px;
@@ -145,16 +142,99 @@
             float:right;
             padding-right:30px;
           }
-          .text_small{
+          .main_text_small{
             padding-top:20px;
             color:#FFF;
           }
         }
     }
 }
-// .portfolio_header{
-//   .line_left{
-//     border-top: 1px dashed #000; /* Параметры линии */
-//   }
-//   .line_righ{}
-// }
+.main_header{
+    width:100%;
+    position: relative;
+    overflow: hidden;
+    text-align: center;
+    margin-bottom:30px;
+      h6 > span {
+        display: inline-block;
+        margin: 20px;
+      }
+      h6 > span:before{
+        content: '';
+        position: absolute;
+        width: 100%;
+        border-top: 1px solid #cacaca;
+        margin-top: .6em;
+      }
+      h6 > span:after {
+        content: '';
+        position: absolute;
+        width: 100%;
+        border-top: 1px solid #cacaca;
+        margin-top: .6em;
+      }
+      h6 > span:before {
+        margin-left: -104%;
+      }
+      h6 > span:after {
+        margin-left: 4%;
+      }
+    p{
+    font-weight:600;
+    margin-top:20px;
+    }
+}
+.main_portfolio{
+width:100%;
+display:inline-block;
+padding-bottom:90px;
+    img{
+        vertical-align:top;
+        padding-top:6px;
+        }
+    .main_img_container_one{
+    display:inline-block;
+    padding-left:5px;
+    width:1075px;
+    }
+    .main_img_container_two{
+    display:inline-block;
+    vertical-align:top;
+    width:266px;
+    }
+    .main_img_container_three{
+    display:inline-block;
+    vertical-align:top;
+    width:275px;
+    }
+}
+.main_clients{
+    height:65px;
+    padding-bottom:120px;
+    width: 100%;
+    position: relative;
+    text-align: center;
+    .main_little_arrow-left{
+    background: url("/assets/images/icons/Left_arrow.png") no-repeat center;
+    background-color:#000;
+    width:45px;
+    height:65px;
+    float:left;
+    }
+    .main_little_arrow-right{
+    background: url("/assets/images/icons/Right_arrow.png") no-repeat center;
+    background-color:#000;
+    width:45px;
+    height:65px;
+    float:right;
+    }
+    .main_clients_block{
+        display:inline-block;
+            img{
+            width:140px;
+            height:65px;
+            padding:0 20px;
+            }
+        
+    }
+}

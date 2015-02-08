@@ -2,12 +2,12 @@
 title: main
 // header: main
 ---
-.bg_image_slider
-  %a.arrow-left{:href => "#"}
-  %a.arrow-right{:href => "#"}
+.main_bg_image_slider
+  %a.main_arrow_left{:href => "#"}
+  %a.main_arrow_right{:href => "#"}
   .limited_content 
-    .slider
-      .text
+    .main_slider
+      .main_text
         %h1 
           %mark We believe
           %br
@@ -17,54 +17,81 @@ title: main
         %p and should be provided with
         %br
         %p the appropriate quality
-      .img_block
-        .block_one
+      .main_img_block
+        .main_block_one
           %img{:src=>'/assets//images/img_1.jpg',:alt=>'icon'}
           %img{:src=>'/assets//images/img_10.jpg',:alt=>'icon'}
           %img{:src=>'/assets//images/img_8.jpg',:alt=>'icon'}
-        .block_two
+        .main_block_two
           %img{:src=>'/assets//images/img_9.jpg',:alt=>'icon'}
           %img{:src=>'/assets//images/img_3.jpg',:alt=>'icon'}
           %img{:src=>'/assets//images/img_2.jpg',:alt=>'icon'}
-        .block_three
+        .main_block_three
           %img{:src=>'/assets//images/img_6.jpg',:alt=>'icon'}
           %img{:src=>'/assets//images/img_5.jpg',:alt=>'icon'}
           %img{:src=>'/assets//images/img_7.jpg',:alt=>'icon'}
-        .block_four
+        .main_block_four
           %img{:src=>'/assets//images/img_4.jpg',:alt=>'icon'}
 .limited_content 
-  .content
+  .main_content_blogs
     %h2 We create quality designs.
     %h3 We specialize in Web Design / Development and Graphic Design
-    .info_blocks
-      .blogs
+    .main_info_blocks
+      .main_blogs
         %img{:src=>'/assets//images/blog_post_img.jpg',:alt=>'icon'}
-        .bottom_block
+        .main_bottom_block
           %h5 redesigning with personality
           %aside in web design
-      .blogs
-        .img_block#icon_one
+      .main_blogs
+        .main_img_block#main_icon_one
           %h5 Web development
-        .bottom_block
-          .text_small
+        .main_bottom_block
+          .main_text_small
             %small Lorem ipsum dolor sit amet, consectetur.
-      .blogs
-        .img_block#icon_two
+      .main_blogs
+        .main_img_block#main_icon_two
           %h5 Web design
-        .bottom_block
-          .text_small
+        .main_bottom_block
+          .main_text_small
             %small Lorem ipsum dolor sit amet, consectetur.
-      .blogs
-        .img_block#icon_three
+      .main_blogs
+        .main_img_block#main_icon_three
           %h5 Graphic design
-        .bottom_block
-          .text_small
+        .main_bottom_block
+          .main_text_small
             %small Lorem ipsum dolor sit amet, consectetur.
-.portfolio_header
-  .line_left
-  .line_right
-    
-    
-    
-    %h6 our work
-    %p Lorem...
+.main_header
+  %h6
+    %span our work
+  %p Lorem Ipsum dolor sit amet, consectetuer elit,sed diam nonummy nibh euismod tincidunt.
+.main_portfolio
+  .main_img_container_one
+    %img{:src=>'/assets//images/Portfolio_work_2.jpg',:alt=>'work'}
+    %img{:src=>'/assets//images/Portfolio_work_1.jpg',:alt=>'work'}
+    %img{:src=>'/assets//images/Portfolio_work_10.jpg',:alt=>'work'}
+    %img{:src=>'/assets//images/Portfolio_work_9.jpg',:alt=>'work'}
+    %img{:src=>'/assets//images/Portfolio_work_8.jpg',:alt=>'work'}
+  .main_img_container_two
+    %img{:src=>'/assets//images/Portfolio_work_11.jpg',:alt=>'work'}
+    %img{:src=>'/assets//images/Portfolio_work_4.jpg',:alt=>'work'}
+    %img{:src=>'/assets//images/Portfolio_work_3.jpg',:alt=>'work'}
+  .main_img_container_three
+    %img{:src=>'/assets//images/Portfolio_work_7.jpg',:alt=>'work'}
+    %img{:src=>'/assets//images/Portfolio_work_6.jpg',:alt=>'work'}
+    %img{:src=>'/assets//images/Portfolio_work_5.jpg',:alt=>'work'}
+.main_header
+  %h6
+    %span our clients
+  %p Lorem Ipsum dolor sit amet, consectetuer elit,sed diam nonummy nibh euismod tincidunt.
+.main_clients
+  .main_little_arrow-left
+  .main_little_arrow-right
+  .main_clients_block
+    %img{:src=>'/assets//images/icons/Client_1.png',:alt=>'clients'}
+    %img{:src=>'/assets//images/icons/Client_2.png',:alt=>'clients'}
+    %img{:src=>'/assets//images/icons/Client_3.png',:alt=>'clients'}
+    %img{:src=>'/assets//images/icons/Client_4.png',:alt=>'clients'}
+    %img{:src=>'/assets//images/icons/Client_5.png',:alt=>'clients'}
+    %img{:src=>'/assets//images/icons/Client_6.png',:alt=>'clients'}
+    %img{:src=>'/assets//images/icons/Client_7.png',:alt=>'clients'}
+    %img{:src=>'/assets//images/icons/Client_8.png',:alt=>'clients'}
