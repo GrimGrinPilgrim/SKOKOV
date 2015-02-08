@@ -2,61 +2,67 @@
 title: main
 // header: main
 ---
-.main
-  .bg_image_slider
-    %a.arrow-left{:href => "#"}
-    %a.arrow-right{:href => "#"}
-    .limited_content 
-      .slider
-        .text
-          %h1 
-            %mark We believe
-            %br
-            %mark in quality design
-          %p Any creative project is unique
+.bg_image_slider
+  %a.arrow-left{:href => "#"}
+  %a.arrow-right{:href => "#"}
+  .limited_content 
+    .slider
+      .text
+        %h1 
+          %mark We believe
           %br
-          %p and should be provided with
-          %br
-          %p the appropriate quality
-        .img_block
-          .block_one
-            %img{:src=>'/assets//images/img_1.jpg',:alt=>'icon'}
-            %img{:src=>'/assets//images/img_10.jpg',:alt=>'icon'}
-            %img{:src=>'/assets//images/img_8.jpg',:alt=>'icon'}
-          .block_two
-            %img{:src=>'/assets//images/img_9.jpg',:alt=>'icon'}
-            %img{:src=>'/assets//images/img_3.jpg',:alt=>'icon'}
-            %img{:src=>'/assets//images/img_2.jpg',:alt=>'icon'}
-          .block_three
-            %img{:src=>'/assets//images/img_6.jpg',:alt=>'icon'}
-            %img{:src=>'/assets//images/img_5.jpg',:alt=>'icon'}
-            %img{:src=>'/assets//images/img_7.jpg',:alt=>'icon'}
-          .block_four
-            %img{:src=>'/assets//images/img_4.jpg',:alt=>'icon'}
-      .content
-        %h2 We create quality designs.
-        %h3 We specialize in Web Design / Development and Graphic Design
-        .info_blocks
-          .blogs
-            %img{:src=>'/assets//images/blog_post_img.jpg',:alt=>'icon'}
-            .bottom_block
-              %h5 redesigning with personality
-              %aside in web design
-          .blogs
-            .img_block#icon_one
-              %h5 Web development
-            .bottom_block
-              %small Lorem ipsum dolor sit amet, consectetur.
-          .blogs
-            .img_block#icon_two
-              %h5 Web design
-            .bottom_block
-              %small Lorem ipsum dolor sit amet, consectetur.
-          .blogs
-            .img_block#icon_three
-              %h5 Graphic design
-            .bottom_block
-              %small Lorem ipsum dolor sit amet, consectetur.
+          %mark in quality design
+        %p Any creative project is unique
+        %br
+        %p and should be provided with
+        %br
+        %p the appropriate quality
+      .img_block
+        .block_one
+          %img{:src=>'/assets//images/img_1.jpg',:alt=>'icon'}
+          %img{:src=>'/assets//images/img_10.jpg',:alt=>'icon'}
+          %img{:src=>'/assets//images/img_8.jpg',:alt=>'icon'}
+        .block_two
+          %img{:src=>'/assets//images/img_9.jpg',:alt=>'icon'}
+          %img{:src=>'/assets//images/img_3.jpg',:alt=>'icon'}
+          %img{:src=>'/assets//images/img_2.jpg',:alt=>'icon'}
+        .block_three
+          %img{:src=>'/assets//images/img_6.jpg',:alt=>'icon'}
+          %img{:src=>'/assets//images/img_5.jpg',:alt=>'icon'}
+          %img{:src=>'/assets//images/img_7.jpg',:alt=>'icon'}
+        .block_four
+          %img{:src=>'/assets//images/img_4.jpg',:alt=>'icon'}
+.limited_content 
+  .content
+    %h2 We create quality designs.
+    %h3 We specialize in Web Design / Development and Graphic Design
+    .info_blocks
+      .blogs
+        %img{:src=>'/assets//images/blog_post_img.jpg',:alt=>'icon'}
+        .bottom_block
+          %h5 redesigning with personality
+          %aside in web design
+      .blogs
+        .img_block#icon_one
+          %h5 Web development
+        .bottom_block
+          .text_small
+            %small Lorem ipsum dolor sit amet, consectetur.
+      .blogs
+        .img_block#icon_two
+          %h5 Web design
+        .bottom_block
+          .text_small
+            %small Lorem ipsum dolor sit amet, consectetur.
+      .blogs
+        .img_block#icon_three
+          %h5 Graphic design
+        .bottom_block
+          .text_small
+            %small Lorem ipsum dolor sit amet, consectetur.
+.portfolio_header
+  .line_left
+  .line_right
     
     
     
