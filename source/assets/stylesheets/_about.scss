@@ -1,9 +1,161 @@
-.welcom h2
-{
-    font-size:30px;
+.about_welcome{
+  height:100%;
+  margin-bottom:90px;
+    img{
+    width:33%;
+    }
 }
-.skills h5
-{
-    font-size:17px;
-    font-family:$fontMain;
+.about_welcome_text{
+  width:870px;
+  height:353px;
+  float:right;
+  // display:inline-block;
+  vertical-align:top;
+  line-height:24px;
+  padding-left:30px;
+  h2{
+  font-size:30px;
+  display:inline-block;
+  }
+  p{
+  font-weight:600;
+  margin-top:20px;
+  display:inline-block;
+  }
+}
+.about_column_one{
+  float:left;
+  width:420px;
+  display:inline-block;
+  p{
+  font-weight:normal;
+  line-height:24px;
+  }
+}
+.about_column_two{
+  float:left;
+  width:420px;
+  display:inline-block;
+  margin-left:30px;
+  p{
+  font-weight:normal;
+  line-height:24px;
+  }
+}
+
+
+.about_header{
+    text-align: center;
+    h6{
+    padding:5px 30px;
+    display: inline-block;
+    vertical-align:middle;
+    }
+    p{
+    margin:30px 0;
+    font-weight:bold;
+    }
+}
+.about_skills_center{
+    text-align: center;
+    margin-bottom:60px;
+}
+.about_skills_block{
+  width:1010px;
+  display:inline-block;
+}
+.about_skills:first-child {
+margin-left: 0;
+}
+.about_skills{
+width: 490px;
+display: block;
+float: left;
+margin-left:30px;
+  ul{
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  }
+  li{
+  width: 490px;
+  height: 38px;
+  background: #424147;
+  margin-bottom: 20px;
+  }
+  span {
+  float: left;
+  background: #000;
+  height: 30px;
+  color: #FFEA00;
+  padding: 8px 6px 0 6px;
+  font-size: 17px;
+  }
+}
+.about_percent_text {
+  background: #FFEA00;
+  height: 30px;
+  float: left;
+  padding: 8px 0 0 15px;
+  text-align:left;
+  h5{
+  font-size:17px;
+  font-family:$fontMain;
+  color:#414146;
+  font-weight:bold;
+  }
+}
+  #size_one{
+    width: 390px;
+  }
+  #size_two{
+    width: 380px;          
+  }
+  #size_three{
+    width: 320px;     
+  }
+   #size_four{
+    width: 345px;         
+  }
+  #size_five{
+    width: 350px;
+  }
+  #size_six{
+    width: 330px;          
+  }
+  #size_seven{
+    width: 250px;     
+  }
+   #size_eight{
+    width: 365px;         
+  }
+
+.about_team{
+    padding-bottom:60px;
+    width: 100%;
+    position: relative;
+    text-align: center;
+    h6{
+    background:#424147;
+    text-align:center;
+    font-size:16px;
+    padding:3px 0;
+    }
+}
+.about_team_block{
+  margin-top:60px;
+}
+.about_people_block{
+  display:inline-block;
+  width:200px;
+  text-align: center;
+  margin-left:150px;
+    img{
+      width:200px;
+      height:200px;
+      margin-bottom: 20px;
+    }
+}
+.about_people_block:first-child {
+  margin-left: 0;
 }
