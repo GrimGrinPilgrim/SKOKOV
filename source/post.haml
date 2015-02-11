@@ -10,10 +10,13 @@ header: post
         .blog_post_text
           .blog_arrow
           %h4 17 Inspiring Examples of Parallax Scrolling Sites
-          %p When
           .blog_post_autor
-            %small.icon 15
-            %small by John Doe  /  4 comments  /  Oct. 12, 2013
+            %span.gray-heart
+              %small 15
+            %small 
+              %a{:href=>"#"} by John Doe  /
+              %a{:href=>"#"} 4 comments  / 
+              %a{:href=>"#"} Oct. 12, 2013
       .single_post_content
         %p Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat. Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie consequat, vel illum dolore eu feugiat nulla facilisis at vero eros et accumsan et iusto odio dignissim qui blandit praesent luptatum zzril delenit augue duis dolore te feugait nulla facilisi.   
         %p Nam liber tempor cum soluta nobis eleifend option congue nihil imperdiet doming id quod mazim placerat facer possim assum. 
@@ -26,72 +29,93 @@ header: post
       .share_post
         %span
           %h6 share this post
-        %mark 15
-        %mark 34
-        %mark 162
-        %mark 7
-      %span
-        %h6 Related posts
-      .other_posts
-        %ul
-          %li
-            .blog_post_prev
-              %img{:src => "assets/images/blog_images/post3.jpg",:alt=>'c'}
-              .blog_post_text
-                .blog_arrow
-                %h4 18 Minimalistic Home Offices to Inspire You
-          %li
-            .blog_post_prev
-              %img{:src => "assets/images/blog_images/post2.jpg",:alt=>'c'}
-              .blog_post_text
-                .blog_arrow
-                %h4 20 Resources for Beginner Designers & Developers
-          %li
-            .blog_post_prev
-              %img{:src => "assets/images/blog_images/post4.jpg",:alt=>'c'}
-              .blog_post_text
-                .blog_arrow
-                %h4 Multipurpose Agency WordPress Theme
+        %mark#icon_fb 15
+        %mark#icon_g 34
+        %mark#icon_t 162
+        %mark#icon_in 7
+      .form_post
+        %span
+          %h6 Related posts
+        .other_posts
+          %ul
+            %li
+              .blog_post_prev
+                %img{:src => "assets/images/blog_images/post3.jpg",:alt=>'c'}
+                .blog_post_text
+                  .blog_arrow
+                  %h4 18 Minimalistic Home Offices to Inspire You
+            %li
+              .blog_post_prev
+                %img{:src => "assets/images/blog_images/post2.jpg",:alt=>'c'}
+                .blog_post_text
+                  .blog_arrow
+                  %h4 20 Resources for Beginner Designers & Developers
+            %li
+              .blog_post_prev
+                %img{:src => "assets/images/blog_images/post4.jpg",:alt=>'c'}
+                .blog_post_text
+                  .blog_arrow
+                  %h4 Multipurpose Agency WordPress Theme
       .comments
-        %span
-          %h6 6 comments
-        .post_comment
-          %img{:src => "assets/images/single_post_img/skokov.jpg",:alt=>'c'}
-          .each_comment
-            %p Skokov   /   2 hours ago   /   reply 
-            %p Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat. Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie consequat, vel illum dolore eu feugiat nulla facilisis at vero eros et accumsan et iusto odio dignissim qui blandit praesent luptatum zzril delenit augue duis dolore te feugait nulla facilisi. 
-        .post_comment
-          %img{:src => "assets/images/single_post_img/wer.jpg",:alt=>'c'}
-          .each_comment
-            %p wernay   /   3 hours ago   /   reply 
-            %p Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat.
-        .post_comment
-          %img{:src => "assets/images/single_post_img/mr.jpg",:alt=>'c'}
-          .each_comment
-            %p mr. dev   /   9 hours ago   /   reply 
-            %p Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat. Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie consequat, vel illum dolore eu feugiat nulla facilisis at vero eros et accumsan et iusto odio dignissim qui blandit praesent luptatum zzril delenit augue duis dolore te feugait nulla facilisi. Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat.
-            .post_comment
-              %img{:src => "assets/images/single_post_img/wer.jpg",:alt=>'c'}
-              .each_comment
-                %p wernay   /   3 hours ago   /   reply 
-                %p Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy.
-                .post_comment
-                  %img{:src => "assets/images/single_post_img/mr.jpg",:alt=>'c'}
-                  .each_comment
-                    %p mr. dev   /   5 hours ago   /   reply 
-                    %p Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat.
-        .post_comment
-          %img{:src => "assets/images/single_post_img/denpro.jpg",:alt=>'c'}
-          .each_comment
-            %p wernay   /   2 hours ago   /   reply 
-            %p Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat. Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie consequat.
-        %span
-          %h6 ggg
-          %form
-            %input{:type=>"text", :placeholder=>"name ..."} 
-            %input{:type=>"email", :placeholder=>"email ..."} 
-            %textarea{:placeholder=>"comment ..."}
-            %button Add a comment
+        .form_post
+          %span
+            %h6 6 comments
+          .post_comment
+            %img{:src => "assets/images/single_post_img/skokov.jpg",:alt=>'c'}
+            .each_comment
+              %p 
+                %a{:href=>"#"} Skokov   /   
+                %a{:href=>"#"} 2 hours ago   /   
+                %a{:href=>"#"} reply 
+              %p Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat. Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie consequat, vel illum dolore eu feugiat nulla facilisis at vero eros et accumsan et iusto odio dignissim qui blandit praesent luptatum zzril delenit augue duis dolore te feugait nulla facilisi. 
+          .post_comment
+            %img{:src => "assets/images/single_post_img/wer.jpg",:alt=>'c'}
+            .each_comment
+              %p 
+                %a{:href=>"#"} wernay   /   
+                %a{:href=>"#"} 3 hours ago   /   
+                %a{:href=>"#"} reply
+              %p Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat.
+          .post_comment
+            %img{:src => "assets/images/single_post_img/mr.jpg",:alt=>'c'}
+            .each_comment
+              %p 
+                %a{:href=>"#"} mr. dev   /   
+                %a{:href=>"#"} 9 hours ago   /   
+                %a{:href=>"#"} reply
+              %p Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat. Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie consequat, vel illum dolore eu feugiat nulla facilisis at vero eros et accumsan et iusto odio dignissim qui blandit praesent luptatum zzril delenit augue duis dolore te feugait nulla facilisi. Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat.
+              .post_comment
+                %img{:src => "assets/images/single_post_img/wer.jpg",:alt=>'c'}
+                .each_comment
+                  %p
+                    %a{:href=>"#"} wernay   /   
+                    %a{:href=>"#"} 3 hours ago   /   
+                    %a{:href=>"#"} reply 
+                  %p Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy.
+                  .post_comment
+                    %img{:src => "assets/images/single_post_img/mr.jpg",:alt=>'c'}
+                    .each_comment
+                      %p 
+                        %a{:href=>"#"} mr. dev   /   
+                        %a{:href=>"#"} 5 hours ago   /   
+                        %a{:href=>"#"} reply
+                      %p Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat.
+          .post_comment
+            %img{:src => "assets/images/single_post_img/denpro.jpg",:alt=>'c'}
+            .each_comment
+              %p
+                %a{:href=>"#"} wernay   /   
+                %a{:href=>"#"} 2 hours ago   /   
+                %a{:href=>"#"} reply
+              %p Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat. Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie consequat.
+        .form_post
+          %span
+            %h6 leave a comment
+            %form
+              %input{:type=>"text", :placeholder=>"name ..."} 
+              %input{:type=>"email", :placeholder=>"email ..."} 
+              %textarea{:placeholder=>"comment ..."}
+              %button Add a comment
   .column_fix
     = partial :navpanel
   .clear

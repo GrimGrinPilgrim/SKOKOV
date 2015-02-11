@@ -44,8 +44,6 @@
     font-size:21px;
   }
 }
-
-
 h4
 {
   text-transform: uppercase;
@@ -63,18 +61,21 @@ h4
     font-size:20px;
     font-weight:bold;
   }
-  a:first-child
+  >a:first-child
   {
-    float:left;
+    left:0;
+    position:absolute;
   }
-  a:last-child
+  >a:last-child
   {
-    float:right;
+    right:0;
+    position:absolute;
+    top:0;
   }
   ul
   {
-    width:95%;
-    position:absolute;
+    width:100%;
+    margin:0 auto;
     text-align:center;
   }
   ul, li
@@ -82,4 +83,11 @@ h4
     display:inline-block;
   }
 } 
-
+.gray-heart
+{
+  float:left;
+  small
+  {
+    margin-left:15px;
+  }
+}

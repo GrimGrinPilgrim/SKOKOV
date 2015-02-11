@@ -109,19 +109,32 @@ aside
   font-size: 10px;
   color: $colorAlt;
 }
-.yellow-heart
+.yellow-heart,
+.gray-heart
 {
   position:relative;
-  
   small:before
   {
     content:'';
     position:absolute;
-    width:10px;
+    width:13px;
     height:10px;
-    background:url(../images/icons/heart-icon.png) no-repeat;
     background-size:cover;
     top:6px;
     right:15px;
+  }
+}
+.yellow-heart
+{
+  small:before
+  {
+    background:url(../images/icons/heart-icon.png) no-repeat;
+  }
+}
+.gray-heart
+{
+  small:before
+  {
+    background:url(../images/icons/heart-icong.png) no-repeat;
   }
 }
