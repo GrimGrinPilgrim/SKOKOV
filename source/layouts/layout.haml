@@ -4,6 +4,12 @@
     = partial :head
   %body
     = partial :header
+    -if data.page.title == "main"
+    -else 
+      .wrapper_full.header_title 
+        .limited_content
+          .you_head_title
+            %h2= data.page.header
     .wrapper_full
       = yield
     = partial :footer
