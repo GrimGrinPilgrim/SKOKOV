@@ -99,6 +99,10 @@ p
 {
   font-size:15px;
 }
+.superP
+{
+  font-size:16px;
+}
 small
 {
   font-size:13px;
@@ -108,6 +112,10 @@ aside
 {
   font-size: 10px;
   color: $colorAlt;
+}
+mark
+{
+  background:$colorAlt;
 }
 .yellow-heart,
 .gray-heart

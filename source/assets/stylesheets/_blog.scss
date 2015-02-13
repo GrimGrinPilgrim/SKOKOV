@@ -10,16 +10,16 @@
   color:black;
   font-family:$fontMain;
   margin:0 0px 10px;
-  padding:30px;
+  padding:25px;
   position:relative;
   .blog_arrow
   {
     position:absolute;
-    border-bottom: 25px solid $colorAlt; 
-  	border-right: 25px solid transparent;
-  	border-left: 25px solid transparent;
-  	top:-25px;
-  	right:50px;
+    border-bottom: 17px solid $colorAlt; 
+  	border-right: 17px solid transparent;
+  	border-left: 17px solid transparent;
+  	top:-17px;
+  	right:55px;
   }
   p
   {
@@ -39,9 +39,11 @@
 .quote
 {
   font-style:italic;
+  padding:12px 10px 5px 45px;
   blockquote
   {
     font-size:21px;
+    margin:0;
   }
 }
 h4
@@ -51,10 +53,12 @@ h4
   font-variant: normal;
   font-weight: normal;
 	color:black;
+	margin:0;
 }
 .blog_nav_panel
 {
   position:relative;
+  margin:50px 0 70px 0;
   a
   {
     text-transform:uppercase;
