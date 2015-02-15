@@ -1,18 +1,37 @@
 .single_post
 {
+  padding:0 100px 100px;
   h4
   {
     font-size:30px;
+  }
+  .title_news
+  {
+    margin:0 -20px;
   }
   .blog_post_autor
   {
     width:40%;
     float:right;
   }
+  .single_post_content
+  {
+     p
+    {
+      margin:0px;
+      line-height: 1.5;
+    }
+    img
+    {
+     margin:20px; 
+     
+    }
+  }
 }
 .share_post
 {
   text-align:right;
+  margin:70px 0 50px;
   span
   {
     float:left;
@@ -53,9 +72,16 @@
 }
 .other_posts
 {
+  margin-top:25px ;
+  .blog_post_text
+  {
+    margin:0 0 20px 0;
+  }
   ul
   {
     text-align:justify;
+    margin:0;
+    padding:0;
   }
   ul:after 
   {
@@ -72,20 +98,25 @@
   }
   li
   {
-    width:30%;
+    width:32%;
     display:inline-block;
     text-align:left;
+    margin:0;
+    padding:0;
   }
 }
 .form_post
   {
-    margin:40px 0;
-    padding:40px 0;
+    padding:40px 0 0 0;
     border-top:1px solid $colorMain;
+    line-height:1.5;
   }
 .comments
 { 
-  margin:40px 0;
+  .form_post
+  {
+ padding-bottom:40px;
+  }
   form
   {
     text-align:right;

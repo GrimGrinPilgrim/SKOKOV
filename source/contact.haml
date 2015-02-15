@@ -5,38 +5,38 @@ header: contact
 .wrapper_full.contact_map
   %iframe{ :src => "https://www.google.com/maps/embed?pb=!1m10!1m8!1m3!1d3139.012012729425!2d13.3662662351334!3d38.11665493283122!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sru!2sru!4v1422802286828", :width => "100%", :height => "645px", :frameborder => "0", :border => "0"}
 .limited_content
-  // <iframe src="https://www.google.com/maps/embed?pb=!1m10!1m8!1m3!1d3139.012012729425!2d13.3662662351334!3d38.11665493283122!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sru!2sru!4v1422802286828" width="1635" height="645" frameborder="0" style="border:0"></iframe>
-  .contact_send_us_a_message
-    %h6
-      send us a message
-    %form
-      %input.contact_name{:value => "name..."}
-      %input.contact_email{:value => "email..."}
-      %input.contact_subject{:value => "subject..."}
-      %textarea
-        message ...
-    %a{:href=>'404.html'}
-      Send a message
-  .contact_info
-    %h6
-      contact info
-    .contact_info_point
-      %img{:src => "/assets//images/icons/Adress.png",:alt=>'adress'}
-      %small
-        Address: 12569 Saint Patrick des Prés, 
-        %br
-        85000 Paris, France
-    .contact_info_point
-      %img{:src => "/assets//images/icons/Phone.png",:alt=>'phone'}
-      %small
-        Phone: 
+  .inside_space
+    .contact_send_us_a_message
+      %h6
+        send us a message
+      %form
+        %input.contact_name{:value => "name..."}
+        %input.contact_email{:value => "email..."}
+        %input.contact_subject{:value => "subject..."}
+        %textarea
+          message ...
+      %a{:href=>'404.html'}
+        Send a message
+    .contact_info
+      %h6
+        contact info
+      .contact_info_point
+        %img{:src => "/assets//images/icons/Adress.png",:alt=>'adress'}
         %small
-          +38 045 845-45-78
+          Address: 12569 Saint Patrick des Prés, 
           %br
-          +38 045 845-45-79
-    .contact_info_point
-      %img{:src => "/assets//images/icons/email.png",:alt=>'email'}
-      %small
-        E-mail:  
-        %small.contact_email
-          freeforwebdesign@gmail.com 
+          85000 Paris, France
+      .contact_info_point
+        %img{:src => "/assets//images/icons/Phone.png",:alt=>'phone'}
+        %small
+          Phone: 
+          %small
+            +38 045 845-45-78
+            %br
+            +38 045 845-45-79
+      .contact_info_point
+        %img{:src => "/assets//images/icons/email.png",:alt=>'email'}
+        %small
+          E-mail:  
+          %small.contact_email
+            freeforwebdesign@gmail.com 

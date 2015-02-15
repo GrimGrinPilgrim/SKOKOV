@@ -15,6 +15,10 @@ body
   max-width:1630px;
   margin:0 auto;
 }
+.inside_space
+{
+  padding:0 120px;
+}
 .main_content
 { 
   width:71%;
@@ -23,9 +27,12 @@ body
 .column
 {
   width:47%;
-  margin-right:2%;
   display:inline-block;
   vertical-align:top;
+  &:first-child
+  {
+    margin-right:30px;
+  }
 }
 h1
 {
@@ -94,10 +101,24 @@ a
   text-decoration:none;
   color:black;
   @include transition(all .4s );
+  &:hover 
+  {
+    color:blue;
+  }
 }
+a *
+{
+  @include transition(all .4s );
+  &:hover 
+  {
+    color:blue;
+  }
+}
+ 
 p
 {
   font-size:15px;
+  inline-height:1.5;
 }
 .superP
 {

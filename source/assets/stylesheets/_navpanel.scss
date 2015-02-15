@@ -48,6 +48,9 @@
   position:relative;
   width:366px;
   margin:0 auto;
+  @include respond-to (tablet) {
+    width: auto;
+  }
   input
   {
     border:0;
