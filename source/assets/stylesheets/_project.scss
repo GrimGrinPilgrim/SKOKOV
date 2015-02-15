@@ -1,33 +1,198 @@
-.project_gallery {
+#project_sliderFrame {
     width: 100%;
-    height: 780px;
+    // height: 780px;
     background-color:#424147;
 }
-    .project_gallery_inside {
+    .project_sliderFrame_inside {
         width:100%;
-        height:660px;
+        font-size: 0;
+         letter-spacing: 0px;
+        // height:660px;
     }
+        // .project_arrow_block {
+        //     width:15%;
+        //     height:600px;
+        //     display:inline-block;
+        // }
         .project_arrow_left {
             position:relative;
-            float:left;
-            width:46px;
+            // float:left;
+            display:inline-block;
+            // width:46px;
+            width:5%;
+            // width:35px;
             height:100px;
-            margin-top:280px;
+            top:-280px;
             background-image:url("/assets/images/icons/project_left_arrow.png");
+            background-size:100%;
+            background-repeat:no-repeat;
         }
+            .project_main_slide {
+                width:60%;
+                margin-left:15%;
+                margin-right:15%;
+                margin-top:20px;
+                margin-bottom:20px;
+                height:600px;
+                // margin-left:auto;
+                // margin-right:auto;
+                // float:left;
+                display:inline-block;
+                // background-color:black;
+            }
+            // Олег сделай что бы на фоне картинка добавлялась этими классами
+                .project_slider_image1 {
+                    background-image:url("/assets/images/Project_slider_photoMini1.jpg");
+                    background-size:100%;
+                }
+                 .project_slider_image2 {
+                    background-image:url("/assets/images/Project_slider_photoMini2.jpg");
+                    background-size:100%;
+                }
+                 .project_slider_image3 {
+                    background-image:url("/assets/images/Project_slider_photoMini3.jpg");
+                    background-size:100%;
+                }
+                 .project_slider_image4 {
+                    background-image:url("/assets/images/Project_slider_photoMini4.jpg");
+                    background-size:100%;
+                }
+                 .project_slider_image5 {
+                    background-image:url("/assets/images/Project_slider_photoMini5.jpg");
+                    background-size:100%;
+                }
+                 .project_slider_image6 {
+                    background-image:url("/assets/images/Project_slider_photoMini6.jpg");
+                    background-size:100%;
+                }
+                 .project_slider_image7 {
+                    background-image:url("/assets/images/Project_slider_photoMini7.jpg");
+                    background-size:100%;
+                }
+                .project_slider_image8 {
+                    background-image:url("/assets/images/Project_slider_photoMini8.jpg");
+                    background-size:100%;
+                }
+                .project_slider_image9 {
+                    background-image:url("/assets/images/Project_slider_photoMini9.jpg");
+                    background-size:100%;
+                }
+                .project_slider_image10 {
+                    background-image:url("/assets/images/Project_slider_photoMini10.jpg");
+                    background-size:100%;
+                }
+                .project_slider_image11 {
+                    background-image:url("/assets/images/Project_slider_photoMini11.jpg");
+                    background-size:100%;
+                }
+                .project_slider_image12 {
+                    background-image:url("/assets/images/Project_slider_photoMini12.jpg");
+                    background-size:100%;
+                }
         .project_arrow_right {
             position:relative;
-            float:right;
-            width:46px;
+            // float:right;
+            display:inline-block;
+            // width:46px;
+            width:5%;
+            // width:35px;
             height:100px;
-            margin-top:280px;
+            top:-280px;
+            // margin-right:0px;
             background-image:url("/assets/images/icons/project_right_arrow.png");
+            background-size:100%;
+            background-repeat:no-repeat;
         }
     .project_gallery_twist {
-        width:100%;
-        height:120px;
+        // width:100%;
+        padding:5px 10px;
+        // height:120px;
         background-color:#000000;
-    }
+    }    
+        .project_twist_common {
+            background-image:url("/assets/images/Project_slider_photoMini1.jpg");
+            width:101px;
+            height:110px;
+            background-repeat:no-repeat;
+            display:inline-block;
+            border: 2px solid yellow;
+            text-align:center;
+        }
+        .project_twist_mini1 {
+            background-image:url("/assets/images/Project_slider_photoMini1.jpg");
+            width:101px;
+        }
+        .project_twist_mini2 {
+            background-image:url("/assets/images/Project_slider_photoMini2.jpg");
+            width:64px;
+        }
+        .project_twist_mini3 {
+            background-image:url("/assets/images/Project_slider_photoMini3.jpg");
+            width:64px;
+        }
+        .project_twist_mini4 {
+            background-image:url("/assets/images/Project_slider_photoMini4.jpg");
+            width:101px;
+        }
+        .project_twist_mini5 {
+            background-image:url("/assets/images/Project_slider_photoMini5.jpg");
+            width:55px;
+        }
+        .project_twist_mini6 {
+            background-image:url("/assets/images/Project_slider_photoMini6.jpg");
+            width:98px;
+        }
+        .project_twist_mini7 {
+            background-image:url("/assets/images/Project_slider_photoMini7.jpg");
+            width:54px;
+        }
+        .project_twist_mini8 {
+            background-image:url("/assets/images/Project_slider_photoMini8.jpg");
+            width:90px;
+        }
+        .project_twist_mini9 {
+            background-image:url("/assets/images/Project_slider_photoMini9.jpg");
+            width:64px;
+        }
+         .project_twist_mini10 {
+            background-image:url("/assets/images/Project_slider_photoMini10.jpg");
+            width:130px;
+        }
+        .project_twist_mini11 {
+            background-image:url("/assets/images/Project_slider_photoMini11.jpg");
+            width:64px;
+        }
+         .project_twist_mini12 {
+            background-image:url("/assets/images/Project_slider_photoMini12.jpg");
+            width:55px;
+        }
+            .project_yellow {
+                background-color:#ffff00;
+                height:110px;
+                opacity: 0.5;
+                visibility:hidden;
+            }
+        // .project_block_yellow_common {
+        //     position:relative;
+        //     background-color:yellow;
+        //     // margin-top:-110px;
+        //     margin-left:-106px;
+        //     opacity: 0.5;
+        //     display:inline-block;
+        // }
+        // .project_yellow1 {
+        //     width:102px;
+        //     height:110px;
+        //     margin-left:-106px;
+        // }
+        // .project_yellow2 {
+        //     width:65px;
+        //     height:110px;
+        //     margin-left:-70px;
+        // }
+        // .project_twist_mini img {
+        //     border: 1px solid yellow;
+        // }
 .project_text_block {
     padding:25px;
 }
@@ -70,3 +235,10 @@
         text-transform: uppercase;
         color:white;
     }
+
+//  layout.haml
+// %title data-page.title
+//   - if data.page.title == 'main'
+//     %title lol
+//   - else 
+//     %title hello
