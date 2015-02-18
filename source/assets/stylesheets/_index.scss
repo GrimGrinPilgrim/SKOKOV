@@ -58,7 +58,8 @@
   position:relative;
   padding-top:110px;
   display:inline-block;
-  z-index:100;
+  left:100px;
+  // z-index:100;
   }
 .main_img_block{
   position:relative;
@@ -68,6 +69,7 @@
   right:25px;
   top:22px;
   font-size: 0;
+  left:-100px;
   /* Лекарство отдельно для Safari */
   display: table;
   // z-index:1000;
@@ -203,6 +205,7 @@
 width:100%;
 display:inline-block;
 padding-bottom:90px;
+text-align:center;
     img{
         vertical-align:top;
         padding-top:6px;
