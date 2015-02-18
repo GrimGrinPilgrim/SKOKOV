@@ -1,11 +1,5 @@
-header{
-  background: #f6f6f6;
-}    
-
-
 .header_logo{
   display: inline-block;
-  vertical-align: middle;
   margin: 20px 0;
 }
 nav{
@@ -13,12 +7,29 @@ nav{
   vertical-align: middle;
   display: inline-block;
   margin: 70px 0;
+  @include respond-to (mob) {
+    margin: 20px auto;
+    display: block;
+  }
   ul.header_menu_button{
     li{
       display: inline-block;
       margin: 0 0 0 80px;
+      @include respond-to (tablet) {
+        margin-left:10px;
+      }
+      @include respond-to (mob) {
+        display: block;
+        margin: 5px;
+      }
       a{
         padding: 25px 5px;
+        @include respond-to (tablet) {
+          font-size: 14px;
+        }
+        @include respond-to (mob) {
+          padding: 5px 25px;
+        }
         &:hover{
           background: $colorAlt;
         }
@@ -29,12 +40,12 @@ nav{
 .header_title{
   background: url("/assets/images/slider_bg.jpg") no-repeat center top;
   background-size: cover;
-  padding: 30px 0;
+  padding: 40px 0;
   margin-bottom: 70px;
   .you_head_title{
-    width: 320px;
+    width: 280px;
     display: inline-block;
     background: #424146;
-    padding: 10px 20px;
+    padding: 13px 20px;
   }
 }

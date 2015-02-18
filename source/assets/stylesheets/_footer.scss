@@ -1,14 +1,13 @@
 footer{
   background: $colorMain;
   color:white;
-
   h6{
     background: none;
     color: white;
     text-transform: none;
     color:$fontMain;
     display: block;
-    padding: 30px 0;
+    padding: 25px 0 15px 0;
     vertical-align: top;
   }
   aside{
@@ -25,63 +24,88 @@ footer{
       color: $colorAlt;
     }
   }
-  nav{
-    float: right;
-    display: inline-block;
-    margin: 0;
-    ul.footer_menu_button{
-      li{
-        display: inline-block;
-        margin: 0 0 0 80px;
-      }
-    }
+}
+.footer_contacts_all{
+  @include respond-to (tablet) {
+    margin: 0 auto;
+    max-width: 520px;
   }
 }
+.footer_columns{
+  width: 100%;
+}
 .footer_column{
-  width: 32%;
-  margin: 0 auto;
-  max-width: 543px;
   display: inline-block;
   vertical-align: top;
-  min-width: 400px;
+  min-width: 300px;
+  @include respond-to (tablet) {
+    display: block;
+    width: 100%;
+    max-width: 740px;
+    margin: 0 auto;
+  }
 }
 #first_column{
-  width: 410px;
-  margin-right: 150px;
+  width: 30%;
+  @include respond-to (tablet) {
+    width: 100%;
+  }
   a{
     color: #fff;
     background: #000;
     border-bottom: 2px solid $colorAlt;
     display: inline;
-    padding: 10px 15px;
-    margin: 30px 0;
+    padding: 8px 15px;
+    margin: 25px 0;
     display: inline-block;
   }
 }
 #second_column{
-  width: 460px;
-  margin-right: 170px;
-  
+  width: 33%;
+  margin-left: 6%;
+  @include respond-to (tablet) {
+    width: 100%;
+    margin: 0;
+  }
 }
 #third_column{
-  width: 325px;
+  width: 20%;
+  float: right;
+  @include respond-to (tablet) {
+    width: 100%;
+    float: none;
+  }
 }
 .footer_tweet{
-  height: 60px;
+  height: 50px;
   margin-bottom: 20px;
+  @include respond-to (mob) {
+    height: 100%;
+  }
   small{
+    max-width: 85%;
     display: inline-block;
     margin-left: 25px;
     vertical-align: middle;
+    @include respond-to (mob) {
+      margin-left: 5px;
+    }
   }
 }
 .footer_yellow{
   color: $colorAlt; 
-  
 }
 .footer_social{
   margin: -5px 0 0 10px;
-  display: inline-block;
+  display: inline;
+  @include respond-to (mob) {
+    display: inline-block;
+    margin: 30px 0 0 0;
+  }
+  a img{
+    margin-top: -5px;
+    margin-bottom: 10px;
+  }
 }
 .footer_info_point{
   margin-top: 30px;
@@ -101,16 +125,58 @@ footer{
 }
 .footer_follow_us{
   width: 230px;
+  margin-top: 15px;
   background: $colorMain;
   border: none;
   border-bottom: 2px solid $colorAlt;
   color: white;
+  outline:none;
+}
+form img{
+  position: absolute;
+  margin-left: 1px;
+  margin-top: 14px;
 }
 .footer_bottom{
   background: black;
-  padding: 30px 0;
-  margin-top: 30px;
+  padding: 25px 0;
+  margin-top: 20px;
   small{
     display: inline;
+    @include respond-to (tablet) {
+      margin: 10px auto;
+      display: block;
+    }
+  }
+  nav{
+  float: right;
+  display: inline-block;
+  margin: -15px;
+  @include respond-to (tablet) {
+    margin: 0;
+    float: none;
+    text-align: center;
+    display: block;
+  }
+  ul.footer_menu_button{
+    li{
+      display: inline-block;
+      margin: 20px 0 0 80px;
+      @include respond-to (tablet) {
+        margin: 0 10px;
+      }
+      @include respond-to (mob) {
+        display: block;
+        margin: 5px;
+      }
+      }
+      a{
+        @include respond-to (tablet) {
+          font-size: 14px;
+        }
+      }
+    }
   }
 }
+  
+

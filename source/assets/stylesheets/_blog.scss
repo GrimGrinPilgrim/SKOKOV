@@ -9,17 +9,17 @@
   background:$colorAlt;
   color:black;
   font-family:$fontMain;
-  margin:0 0px 10px;
-  padding:30px;
+  margin:0 0px 30px;
+  padding:25px;
   position:relative;
   .blog_arrow
   {
     position:absolute;
-    border-bottom: 25px solid $colorAlt; 
-  	border-right: 25px solid transparent;
-  	border-left: 25px solid transparent;
-  	top:-25px;
-  	right:50px;
+    border-bottom: 17px solid $colorAlt; 
+  	border-right: 17px solid transparent;
+  	border-left: 17px solid transparent;
+  	top:-15px;
+  	right:55px;
   }
   p
   {
@@ -39,13 +39,13 @@
 .quote
 {
   font-style:italic;
+  padding:12px 10px 5px 45px;
   blockquote
   {
     font-size:21px;
+    margin:0;
   }
 }
-
-
 h4
 {
   text-transform: uppercase;
@@ -53,28 +53,34 @@ h4
   font-variant: normal;
   font-weight: normal;
 	color:black;
+	margin:0;
 }
 .blog_nav_panel
 {
   position:relative;
+  margin:50px 0 70px 0;
+  width: 95%;
   a
   {
     text-transform:uppercase;
     font-size:20px;
     font-weight:bold;
   }
-  a:first-child
+  >a:first-child
   {
-    float:left;
+    left:0;
+    position:absolute;
   }
-  a:last-child
+  >a:last-child
   {
-    float:right;
+    right:0;
+    position:absolute;
+    top:0;
   }
   ul
   {
-    width:95%;
-    position:absolute;
+    width:100%;
+    margin:0 auto;
     text-align:center;
   }
   ul, li
@@ -82,4 +88,11 @@ h4
     display:inline-block;
   }
 } 
-
+.gray-heart
+{
+  float:left;
+  small
+  {
+    margin-left:15px;
+  }
+}

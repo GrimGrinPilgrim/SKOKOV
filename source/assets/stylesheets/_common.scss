@@ -15,6 +15,10 @@ body
   max-width:1630px;
   margin:0 auto;
 }
+.inside_space
+{
+  padding:0 120px;
+}
 .main_content
 { 
   width:71%;
@@ -23,9 +27,12 @@ body
 .column
 {
   width:47%;
-  margin-right:2%;
   display:inline-block;
   vertical-align:top;
+  &:first-child
+  {
+    margin-right:30px;
+  }
 }
 h1
 {
@@ -94,10 +101,28 @@ a
   text-decoration:none;
   color:black;
   @include transition(all .4s );
+  &:hover 
+  {
+    color:blue;
+  }
 }
+a *
+{
+  @include transition(all .4s );
+  &:hover 
+  {
+    color:blue;
+  }
+}
+ 
 p
 {
   font-size:15px;
+  inline-height:1.5;
+}
+.superP
+{
+  font-size:16px;
 }
 small
 {
@@ -109,19 +134,36 @@ aside
   font-size: 10px;
   color: $colorAlt;
 }
-.yellow-heart
+mark
+{
+  background:$colorAlt;
+}
+.yellow-heart,
+.gray-heart
 {
   position:relative;
-  
   small:before
   {
     content:'';
     position:absolute;
-    width:10px;
+    width:13px;
     height:10px;
-    background:url(../images/icons/heart-icon.png) no-repeat;
     background-size:cover;
     top:6px;
     right:15px;
+  }
+}
+.yellow-heart
+{
+  small:before
+  {
+    background:url(../images/icons/heart-icon.png) no-repeat;
+  }
+}
+.gray-heart
+{
+  small:before
+  {
+    background:url(../images/icons/heart-icong.png) no-repeat;
   }
 }
